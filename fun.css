@@ -1,0 +1,21 @@
+body{
+    background-color:rgb(93, 92, 91); 
+    color:white
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.btn button{
+    font-weight: bold;
+    width:50px;
+    border-radius: 5px;
+}
+.btn button:hover{
+    width:60px;
+    cursor: pointer;
+    color:rgb(252, 6, 243)
+}
